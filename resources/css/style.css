@@ -68,3 +68,34 @@ html{
   line-height: 1.2;
   padding: 1.5rem 5rem;
 }
+
+.services{
+  display: flex;
+  justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 3rem 3rem;
+  height: 8rem;
+  width: 5rem;
+  text-align: center;
+}
+
+.paper{
+  max-width: 3.5rem;
+  height: auto;
+}
+
+.ruler{
+  max-width: 5rem;
+  height: auto;
+}
+
+.truck {
+  max-width: 100%;
+  heigh: auto;
+}
