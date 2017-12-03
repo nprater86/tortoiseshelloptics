@@ -1,3 +1,7 @@
+html,body,#page,header{
+  height: 100%;
+}
+
 html{
   font-size: 18px;
   font-family: Helvetica;
@@ -7,6 +11,10 @@ html{
 .container{
   width: 960px;
   margin: 0 auto;
+}
+
+.mainconetent{
+  min-height: calc(100% - 9.5rem);
 }
 
 .banner{
@@ -97,5 +105,53 @@ html{
 
 .truck {
   max-width: 100%;
-  heigh: auto;
+  height: auto;
+}
+
+.information{
+  display: flex;
+  justify-content: center;
+}
+
+.infogrid{
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.infogrid h2{
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0 0.5rem 1.25rem;
+  width: 10rem;
+}
+
+.infogrid p{
+  margin-top: 1rem;
+}
+
+.appointments{
+  margin-left: 5%;
+}
+
+footer{
+  background-color: azure;
+  width: 100%;
+  margin-top: 5rem;
+  height: 9.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.footerlogo{
+  display: flex;
+  align-items: center;
+}
+
+.footerlogo img{
+  height: 1.5rem;
+  width: auto;
+  margin: 0 1rem 0 4rem;
 }
