@@ -2,7 +2,6 @@ html{
   font-size: 18px;
   font-family: Helvetica;
   line-height: 1.4;
-  font-size: 1rem;
 }
 
 .container{
@@ -51,4 +50,21 @@ html{
 
 .header nav span{
   padding: 1rem 2rem 1rem 0;
+}
+
+.motto{
+  position: relative;
+  top: 14rem;
+  left: 2rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.motto h1{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+  padding: 1.5rem 5rem;
 }
